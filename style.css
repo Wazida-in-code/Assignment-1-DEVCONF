@@ -1,3 +1,33 @@
-h1{
-    background-color: aquamarine;
+* {
+    margin: 0;
+    padding: 0;
+}
+/* common style */
+.common-button{
+    background-color: rgb(31, 31, 201);
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+/* navbar style start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-items-container{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #575757;
 }
