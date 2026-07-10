@@ -331,12 +331,42 @@ body{
     line-height:1.6;
 }
 
-/* Responsive */
+/* footer design */
 
-@media (max-width:768px){
+.icons{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
-    .info-section{
-        flex-direction:column;
-    }
+footer{
+    background-color: rgb(9, 9, 45);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+}
 
+.icons p{
+    padding: 10px;
+    color: #575757;
+    font-size: small;
+}
+
+footer span{
+    padding: 10px;
+    color: rgb(29, 86, 105);
+}
+
+.logo{
+    margin: 50px auto;
+}
+
+footer hr{
+    width: 200px;
+    height: 1px;
+    border: none;
+    background-color: #575757;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
