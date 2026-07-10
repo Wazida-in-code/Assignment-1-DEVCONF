@@ -125,3 +125,128 @@ a{
     color: #575757;
     margin: 15px 20px;
 }
+
+.pricing-section{
+    padding: 30px 11%;
+}
+
+.pricing-section .price-headline{
+    text-align: center;
+    margin: 70px auto;
+    padding-bottom: 10px;
+    color: rgb(10, 10, 58);
+}
+
+.pricing-section .price-headline p{
+    color: #575757;
+    font-weight: 100px;
+    line-height: 26px;
+    font-size: 10px;
+}
+
+.pricing-card-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pricing-card{
+    border: 1px solid rgb(231, 231, 231);
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding-top: 30px;
+}
+
+.pricing-card .centered section{
+    
+    margin-bottom: 10px;
+    color: #888888;
+}
+
+.pricing-card h2{
+    color: rgb(10, 10, 58);
+}
+
+.pricing-card p{
+    color: #888888;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.pricing-card ul{
+    padding: 25px 17px;
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+
+.pricing-card ul li{
+    color: rgb(51, 51, 51);
+    padding: 5px;
+}
+
+.pricing-card ul li::marker{
+    color: #2563EB;
+}
+
+.pricing-card hr{
+    border: none;
+    background-color: #E5E7EB;
+    width: 80%;
+    margin-left: 0;
+    margin-right: auto;
+    height: 1px;
+
+}
+
+.highlight{
+    background-color: rgb(9, 9, 45);
+}
+
+.highlight .pro{
+    color: rgb(147, 197, 253);
+}
+
+.highlight h2{
+    color: white;
+}
+
+.highlight ul li{
+    color: rgb(197, 194, 194);
+}
+
+.highlight hr{
+    background-color: #262626;
+}
+
+
+.outline-button{
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: 2px solid rgb(31, 31, 201);
+    color: rgb(31, 31, 201);
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.pro-btn{
+    padding: 15px 100px;
+    background-color: rgb(31, 31, 201);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    /* margin-bottom: 30px; */
+}
+
+.contact-btn{
+    padding: 15px 90px;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 9, 45);
+    color: rgb(31, 31, 201);
+    cursor: pointer;
+    background-color: white;
+    /* margin-bottom: 30px; */
+}
