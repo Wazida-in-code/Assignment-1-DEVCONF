@@ -10,6 +10,7 @@
     border-radius: 10px;
     border-style: none;
     color: white;
+    cursor: pointer;
 }
 
 /* navbar style start */
@@ -26,6 +27,15 @@ nav {
     display: flex;
     list-style: none;
     gap: 25px;
+}
+
+.nav-items-container li{
+    padding: 0 8px;
+}
+
+.nav-items-container li:hover{
+    background-color: #bababa;
+    
 }
 
 a{
