@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 /* common style */
 .common-button{
@@ -30,4 +31,44 @@ nav {
 a{
     text-decoration: none;
     color: #575757;
+}
+
+
+/* banner section */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("./assets/banner.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-content{
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+.banner-content h1 span{
+    font-style: italic;
+}
+
+.banner-content p{
+    font-weight: 300;
+    font-size: small;
+}
+
+.banner-content .banner-button{
+    margin-top: 250px;
+    /* margin-bottom: 30px; */
 }
