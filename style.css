@@ -72,3 +72,46 @@ a{
     margin-top: 250px;
     /* margin-bottom: 30px; */
 }
+
+.speakers{
+    margin-top: 50px;
+    /* padding-bottom: 0; */
+}
+
+.speakers h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.speakers-parent{
+    padding: 30px 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.speakers .speakers-parent img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.speakers-parent div{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.speakers-parent .speaker-category{
+    color: rgb(37, 99, 235);
+    margin: 15px 20px;
+}
+
+.speakers-parent h3{
+    color: rgb(10, 10, 58);
+    margin: 15px 20px;
+}
+
+.speakers-parent .speaker-title{
+    color: #575757;
+    margin: 15px 20px;
+}
